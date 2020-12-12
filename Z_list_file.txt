@@ -1,0 +1,27 @@
+Wanderlust
+
+1.index		= done(popular destination)
+
+2.tour-list	= done. (filter bar)
+
+3.tour-item	= done. (rating bar still has some problems)
+
+4.destination-grid	= done.
+
+5.destination-item	= done.
+
+6.blog-grid	= done.
+
+7.blog-single	= done.
+
+8.aboutus	= done. 
+
+9.contact	= done.
+
+*** menu = 100%;
+
+REMAIN: 1 / all responsive. not filter price
+COMPLETE: 8
+
+# new task: thay link book tour ve link cua cty
+webhotel.vn

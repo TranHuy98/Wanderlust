@@ -1,0 +1,173 @@
+
+.banner{
+	height: 200px;
+	background-image: url(../img/tour-list-banner.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.banner p{
+	font-size: 42px;
+	color: white;
+	line-height: 200px;
+	text-align: left;
+	margin-left: 80px;
+	text-transform: capitalize;
+	font-weight: bold;
+}
+
+/*destination*/
+.topDestination{
+	margin-top: 50px;
+	position: relative;
+	z-index: 0;
+}
+.topDestination .title h2{
+	font-size: 60px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #f2f2f2;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+.topDestination .title h5{
+	font-size: 30px;
+	text-transform: capitalize;
+	margin-top: 40px;
+}
+.topDestination .title .slice{
+	margin-left: 15px;
+	width: 100px;
+	border-top: 5px solid #3fced3;
+}
+.topDestination .title h5 span{
+	font-weight: bold;
+}
+.topDestination .image{
+	margin-top: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.topDestination .image .itemBox{
+	height: 400px;
+	width: 100%;
+	border-radius: 5px;
+	overflow: hidden;
+	position: relative;
+	cursor: pointer;
+	margin-top: 25px;
+	z-index: 0;
+}
+.topDestination .image .itemBox .item{
+	height: 62.5%;
+	width: 100%;
+	transition: all 0.3s;
+	border-radius: 5px;
+	overflow: hidden;
+}
+.topDestination .image .itemBox .itemImg{
+	height: 100%;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	transition: all 0.3s;
+	border-radius: 5px;
+}
+.topDestination .image .itemBox:hover .item .itemImg{
+	transform: scale(1.1);
+}
+.topDestination .image .itemBox .info .criteria{
+	text-align: left;
+	color: #666;
+	font-size: 12px;
+	margin-top: 10px;
+}
+.topDestination .image .itemBox .info .title{
+	font-size: 18px;
+	font-weight: bold;
+	color: black;
+}
+.topDestination .image .itemBox .info .detail{
+	font-size: 14px;
+	color: #666;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	line-height: 20px;
+	line-clamp: 2;
+	height: 40px;
+}
+
+
+.topDestination .tourPage{
+	margin-top: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.topDestination .tourPage .load{
+	width: 120px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	border-radius: 5px;
+	background-color: #ffc600;
+	color: black;
+	font-size: 16px;
+	cursor: pointer;
+	font-weight: bold;
+	text-transform: uppercase;
+	border: none;
+}
+.topDestination .tourPage .load:hover{
+	color: white;
+}
+
+
+
+
+
+
+
+
+/*RESPONSIVE*/
+@media all and (max-width: 1200px){
+	.header{
+		display: none;
+	}
+	.resHeader{
+		display: block;
+	}
+}
+
+
+@media all and (max-width: 992px){	
+	.footer .copyright{
+		text-align: center;
+	}
+	.footer .footerContact{
+		text-align: center;
+	}
+}
+
+
+@media all and (max-width: 768px){
+}
+
+
+@media all and (max-width: 576px){
+	.banner p{
+		text-align: center;
+		margin-left: 0px;
+	}
+}
+
+
+
+
+
+
+

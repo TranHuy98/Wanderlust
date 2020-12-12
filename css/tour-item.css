@@ -1,0 +1,714 @@
+
+.banner{
+	height: 500px;
+	background-image: url(../img/tour-item-banner.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover; 
+	position: relative;
+}
+.banner .viewPhoto{
+	width: 10%;
+	height: 40px;
+	background-color: white;
+	border-radius: 5px;
+	position: absolute;
+	bottom: 10%;
+	right: 20%;
+	line-height: 40px;
+	text-align: center;
+	font-size: 14px;
+	cursor: pointer;
+}
+.banner .viewVideo{
+	width: 10%;
+	height: 40px;
+	background-color: white;
+	border-radius: 5px;
+	position: absolute;
+	bottom: 10%;
+	right: 5%;
+	line-height: 40px;
+	text-align: center;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+.content{
+	margin-top: 50px;
+}
+.content .left{
+}
+.content .left .opening{
+}
+.content .left .opening .title{
+	font-size: 24px;
+	font-weight: bold;
+}
+.content .left .opening .rating{
+	font-size: 14px;
+	color: #3fc3de;
+}
+.content .left .slice{
+	border-bottom: 1px solid #ccc;
+}
+.content .left .detail{
+	margin-top: 50px;
+}
+.content .left .detail .title{
+	font-size: 20px;
+	font-weight: bold;
+}
+.content .left .detail .description{
+	font-size: 14px;
+	padding-bottom: 15px;
+}
+.content .left .criteria{
+	font-size: 14px;
+	margin-top: 15px;
+}
+.content .left .criteria .crit{
+	font-weight: bold;
+}
+.content .left .criteria .include i{
+	color: #67dadd;
+}
+.content .left .criteria .exclude i{
+	color: #ef5864;
+}
+.content .map{
+	margin-top: 50px;
+}
+.content .map .title{
+	font-size: 20px;
+	font-weight: bold;
+}
+.content .schedule{
+	margin-top: 50px;
+}
+.content .schedule .title{
+	font-size: 20px;
+	font-weight: bold;
+}
+.content .schedule .day{
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	font-size: 14px;
+	background-color: white;
+	overflow: hidden;
+	cursor: pointer;
+}
+.content .schedule .day .shortInfo{
+	height: 25px;
+	line-height: 40px;
+	font-weight: bold;
+}
+.content .schedule .day .shortInfo span{
+	position: absolute;
+	right: 10px;
+}
+.content .schedule .day .fullInfo{
+	display: none;
+}
+.content .faqs{
+	margin-top: 50px;
+}
+.content .faqs .title{
+	font-size: 20px;
+	font-weight: bold;
+}
+.content .faqs .ask{
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	font-size: 14px;
+	background-color: white;
+	overflow: hidden;
+	cursor: pointer;
+}
+.content .faqs .ask .shortInfo{
+	height: 25px;
+	line-height: 40px;
+	font-weight: bold;
+}
+.content .faqs .ask .fullInfo{
+	display: none;
+}
+
+.content .review{
+	margin-top: 50px;
+}
+.content .review .title{
+	font-size: 20px;
+	font-weight: bold;
+}
+.content .review .average{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 200px;
+	background-color: #f7f7f7;
+	border-radius: 5px 0 0 5px;
+}
+.content .review .average .number{
+	text-align: center;
+	font-size: 50px;
+	color: #3fc3de;
+	font-weight: bold;
+}
+.content .review .average .number span{
+	font-size: 30px;
+}
+.content .review .average .rating{
+	text-align: center;
+	color: black;
+	font-size: 28px;
+	font-weight: bold;
+	margin-top: -20px;
+}
+.content .review .stat{
+	background-color: #f7f7f7;
+	border-radius: 0 5px 5px 0;
+}
+
+
+.content .left .review .stat .rateWord{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	font-weight: bold;
+}
+.content .left .review .stat .rateStar{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	color: #3fced3;
+	font-size: 14px;
+}
+.content .left .review .stat .rateBar{
+	width: 100%;
+	height: 40px;
+}
+.content .left .review .stat .rateBar .rateBardiv{
+	width: 100%;
+	height: 6px;
+	margin-top: 17px; 
+	background-color: #ccc;
+	border-radius: 3px;
+}
+/*rate star not js*/
+.content .left .review .stat .rateBar .r5, .r4, .r3, .r2, .r1{
+	height: 100%;
+	border-radius: 3px;
+	background-color: #3fced3;
+}
+.r5{
+	width: 100%;
+}
+.r4{
+	width: calc(100%/24*19);
+}
+.r3{
+	width: calc(100%/24*2);
+}
+.r2{
+	width: 0;
+}
+.r1{
+	width: 0;
+}
+/*rate star not js ending*/
+.content .left .review .stat .rateNumber{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	font-weight: bold;
+	/*border: 1px solid red;*/
+}
+.content .left .review .touristRev{
+	margin-top: 50px;
+}
+.content .left .review .touristRev .portrait{
+	width: 100%;
+	padding-top: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	border-radius: 50%;
+}
+.content .left .review .touristRev .name{
+	font-size: 14px;
+	font-weight: bold;
+}
+.content .left .review .touristRev .name span{
+	color: #bbb;
+}
+.content .left .review .touristRev .star{
+	font-size: 12px;
+	color: #3fced3;
+	margin-top: -10px;
+}
+.content .left .review .touristRev .detail{
+	font-size: 12px;
+	color: #666;
+	margin-top: -10px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	line-height: 20px;
+	height: 60px;
+	line-clamp: 3;
+}
+.content .left .review .slice{
+	border-bottom: 1px solid #ccc;
+	width: 100%;
+	margin-top: 20px;
+}
+.content .left .write{
+	margin-top: 30px;
+}
+.content .left .write .title{
+	font-size: 16px;
+	font-weight: bold;
+}
+.content .left .write .note{
+	font-size: 14px;
+	color: #666;
+	/*line-height: 20px;*/
+}
+.content .left .write .yourRate{
+	font-size: 14px;
+	color: #666;
+	/*line-height: 20px;*/
+}
+.content .left .write .yourRate i{
+	color: #3fced3;
+}
+.content .left .write .yourRev{
+	font-size: 14px;
+	color: #666;
+}
+.content .left .write input{
+	width: 100%;
+	height: 40px;
+	padding-left: 15px;
+}
+.content .left .write input::placeholder{
+	font-size: 14px;
+	color: #666;
+}
+.content .left .write textarea{
+	margin-top: 20px;
+	height: 200px;
+	width: 100%;
+	resize: vertical;
+	padding-left: 15px;
+	overflow: auto;
+}
+.content .left .write textarea::placeholder{
+	font-size: 14px;
+	color: #666;
+}
+.content .left .write .submitBtn{
+	width: 20%;
+	height: 40px;
+	line-height: 40px;
+	color: black;
+	background-color: #ffc600;
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+	user-select: none;
+	font-size: 14px;
+	font-weight: bold;
+	border: none;
+}
+.content .left .write .submitBtn:hover{
+	color: white;
+	transition: all 0.5s;
+}
+
+
+
+
+.content .right{
+
+}
+.content .right .plan{
+	background-color: #f6f6f6;
+	width: 100%;
+	padding-bottom: 30px;
+}
+.content .right .plan .title{
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	color: white;
+	background-color: #3ecfd3;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: bold;
+}
+.content .right .plan .item{
+	margin-top: 20px;
+}
+.content .right .plan .item p{
+	font-size: 16px;
+	font-weight: bold;
+}
+.content .right .plan .item select{
+	width: 100%;
+	border-radius: 5px;
+	height: 40px;
+	line-height: 40px;
+}
+.content .right .plan .item input{
+	width: 100%;
+	border-radius: 5px;
+	height: 40px;
+	line-height: 40px;
+	border: 1px solid #ccc;
+}
+.content .right .plan .item textarea{
+	width: 100%;
+	border-radius: 5px;
+	line-height: 20px;
+	border: 1px solid #ccc;
+	resize: vertical;
+}
+.content .right .plan .item textarea:focus{
+	outline: none;
+}
+.content .right .plan .item select:hover{
+	color: #3fced3;
+	border-color: #3fced3;
+}
+.content .right .plan .item input:hover{
+	color: #3fced3;
+	border-color: #3fced3;
+}
+.content .right .plan .item input:focus{
+	outline: none;
+	color: #3fced3;
+	border-color: #3fced3;
+}
+.content .right .plan .price{
+	margin-top: 20px;
+}
+.content .right .plan .book{
+	margin-top: 20px;
+	height: 40px;
+	width: 100%;
+	background-color: #ffc600;
+	color: black;
+	text-transform: uppercase;
+	font-size: 16px;
+	line-height: 40px;
+	text-align: center;
+	border-radius: 5px;
+	user-select: none;
+	border: none;
+}
+.content .right .plan .book:hover{
+	cursor: pointer;
+	color: white;
+}
+.content .right .question{
+	margin-top: 30px;
+	width: 100%;
+	height: 300px;
+	background-image: url(../img/sidebar-contact-bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.content .right .question .title{
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-top: 30px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.content .right .question .hint{
+	color: rgb(255,255,255,0.8);
+	font-size: 12px;
+	margin-top: -50px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.content .right .question .phone{
+	margin-top: -50px;
+	color: white;
+	font-size: 14px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.content .right .question .mail{
+	margin-top: -80px;
+	color: white;
+	font-size: 14px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+/*discover*/
+.discover{
+	margin-top: 100px;
+}
+.discover .title{
+	display: flex;
+	justify-content: center;
+	position: relative;
+}
+.discover .title h2{
+	font-size: 50px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #f2f2f2;
+	position: absolute;
+	top: 0;
+	left: 0;
+	text-align: center;
+	z-index: -1;
+}
+.discover .title h5{
+	font-size: 25px;
+	text-transform: capitalize;
+	margin-top: 40px;
+	text-align: center;
+}
+.discover .title h5 span{
+	font-weight: bold;
+}
+.discover .title .slice{
+	width: 100px;
+	border-top: 5px solid #3fced3;
+}
+.discover .image{
+	margin-top: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.discover .image .itemBox{
+	height: 350px;
+	width: 100%;
+	border-radius: 5px;
+	cursor: pointer;
+	overflow: hidden;
+	position: relative;
+	z-index: 0;
+	box-shadow: 0px 0px 15px 0px #cccccc;
+	margin-top: 30px;
+}
+.discover .image .itemBox .sale{
+	width: 80px;
+	height: 80px;
+	color: white;
+	font-size: 14px;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: white;
+	background-color: red;
+	transform: rotate(45deg);
+	position: absolute;
+	top: -40px;
+	right: -40px;
+	z-index: 3;
+	user-select: none;
+}
+.discover .image .itemBox .sale .text{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.discover .image .itemBox .sale p{
+	line-height: 14px;
+	width: 100%;
+	position: absolute;
+	top: 60px;
+	left: 0;
+}
+.discover .image .itemBox .item{
+	width: 100%;
+	height: 70%;
+	border-radius: 5px 5px 0 0;
+	overflow: hidden;
+}
+.discover .image .itemBox .item .itemImg{
+	width: 100%;
+	height: 100%;
+	border-radius: 5px 5px 0 0;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	transition: all 0.3s;
+}
+.discover .image .itemBox:hover .itemImg{
+	transform: scale(1.1);
+}
+.discover .image .itemBox .info{
+	width: 100%;
+	height: 30%;
+	border-radius: 0 0 5px 5px;
+}
+.discover .image .itemBox .info .title{
+	text-align: left;
+	margin-left: 5%;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 5%;
+}
+.discover .image .itemBox .info .rating{
+	text-align: left;
+	margin-left: 5%;
+	margin-top: -4%;
+	font-size: 14px;
+	color: #3fced3;
+	font-size: 12px;
+}
+.discover .image .itemBox .info .price{
+	text-align: right;
+	margin-right: 5%;
+	font-size: 14px;
+	color: #999999;
+	text-decoration: line-through;
+	font-weight: bold;
+	margin-top: -18%;
+}
+.discover .image .itemBox .info .detail{
+	margin-left: 5%;
+	text-align: left;
+	font-size: 12px;
+	float: left;
+	line-height: 24px;
+	margin-top: 0;
+}
+.discover .image .itemBox .info .discount{
+	margin-right: 5%;
+	text-align: right;
+	color: #ffc600;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 24px;
+}
+.discover .image .notSale .sale{
+	opacity: 0;
+}
+.discover .image .notSale .price{
+	opacity: 0;
+}
+/*end discover*/
+
+
+
+
+/*RESPONSIVE*/
+/*This was copied from tour-list.
+Need adjustion for each page*/
+@media all and (max-width: 1200px){
+	.header{
+		display: none;
+	}
+	.resHeader{
+		display: block;
+	}
+}
+
+
+@media all and (max-width: 991px){	
+	.footer .copyright{
+		text-align: center;
+	}
+	.footer .footerContact{
+		text-align: center;
+	}
+	.content .right{
+		margin-top: 50px;		
+	}
+	.discover .image .itemBox{
+		height: 400px;
+	}
+	.discover .image .itemBox .info .rating{
+		margin-top: -4%;
+	}
+	.discover .image .itemBox .info .price{
+		margin-top: -15%;
+	}
+	.discover .image .itemBox .info .detail{
+		
+		margin-top: 3%;
+	}
+	.banner .viewPhoto{
+		width: 15%;
+		right: 30%;
+	}
+	.banner .viewVideo{
+		width: 15%;
+		right: 5%;
+	}
+}
+
+
+@media all and (max-width: 768px){
+}
+
+
+@media all and (max-width: 576px){
+	.content .right .list{
+		display: none;
+	}
+	.content .right .image{
+		display: block;
+	}
+	.banner p{
+		text-align: center;
+		margin-left: 0px;
+	}
+	.banner .viewPhoto{
+		width: 25%;
+		left: 5%;
+	}
+	.banner .viewVideo{
+		width: 25%;
+		right: 5%;
+	}
+	.content .left .review .stat .rateWord{
+		font-size: 12px;
+	}
+	.content .left .review .stat .rateStar{
+		font-size: 12px;
+	}
+	.content .left .review .stat .rateNumber{
+		font-size: 12px;
+	}
+
+}
+@media all and (max-width: 425px){
+	.content .left .review .stat .rateWord{
+		font-size: 10px;
+	}
+	.content .left .review .stat .rateStar{
+		font-size: 10px;
+	}
+	.content .left .review .stat .rateNumber{
+		font-size: 10px;
+	}
+}
+@media all and (max-width: 320px){
+	.content .left .review .stat .rateWord{
+		font-size: 10px;
+	}
+	.content .left .review .stat .rateStar{
+		font-size: 10px;
+	}
+	.content .left .review .stat .rateNumber{
+		font-size: 10px;
+	}
+}

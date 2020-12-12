@@ -1,0 +1,180 @@
+
+
+.banner{
+	height: 200px;
+	background-image: url(../img/tour-list-banner.png);
+	/*background-image: linear-gradient(to right, #000, #fff);*/
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.banner p{
+	font-size: 42px;
+	color: white;
+	line-height: 200px;
+	text-align: left;
+	margin-left: 80px;
+	text-transform: capitalize;
+	font-weight: bold;
+}
+
+/*destination*/
+.topDestination{
+	margin-top: 50px;
+	position: relative;
+	z-index: 0;
+}
+.topDestination .title h2{
+	font-size: 60px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #f2f2f2;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+.topDestination .title h5{
+	font-size: 30px;
+	text-transform: capitalize;
+	margin-top: 40px;
+}
+.topDestination .title .slice{
+	margin-left: 15px;
+	width: 100px;
+	border-top: 5px solid #3fced3;
+}
+.topDestination .title h5 span{
+	font-weight: bold;
+}
+.topDestination .image{
+	margin-top: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.topDestination .image .itemBox{
+	height: 250px;
+	width: 100%;
+	border-radius: 5px;
+	overflow: hidden;
+	position: relative;
+	cursor: pointer;
+	margin-top: 25px;
+	z-index: 0;
+}
+.topDestination .image .itemBox .item{
+	height: 100%;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	transition: all 0.3s;
+}
+.topDestination .image .itemBox:hover .item{
+	transform: scale(1.1);
+}
+.topDestination .image .location{
+	position: absolute;
+	bottom: 0;
+	left: 3%;
+	z-index: 2;
+	color: white;
+	text-transform: uppercase;
+}
+.topDestination .image .location i{
+	color: #ffc600;
+}
+.topDestination .image .stat{
+	position: absolute;
+	bottom: 0;
+	right: 3%;
+	z-index: 2;
+	color: white;
+}
+.topDestination .image .overlay{
+	width: 100%;
+	height: 40%;
+	position: absolute;
+	bottom: -40%;
+	left: 0;
+	background-image: linear-gradient(to top, rgb(0,0,0,0.8), rgb(0,0,0,0.1));
+	z-index: 1;
+	box-shadow: 0 -5px 5px -5px rgb(0,0,0,0.1);
+	transition: all 0.3s;
+	filter: alpha(opacity=0);
+	opacity: 0;
+}
+.topDestination .image .itemBox:hover .overlay{
+	filter: alpha(opacity=1);
+	opacity: 1;
+	bottom: 0;
+}
+.topDestination .tourPage{
+	margin-top: 80px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.topDestination .tourPage .pageBtn{
+	width: 40px;
+	height: 40px;
+	border-radius: 5px;
+	border: 1px solid #cccccc;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 5px;
+	margin-right: 5px;
+	color: #aaa;
+	cursor: pointer;
+}
+.topDestination .tourPage .checked{
+	border: 1px solid #3fced3;
+	background-color: #3fced3;
+	color: white;
+}
+/*end destination*/
+
+
+
+
+/*RESPONSIVE*/
+@media all and (max-width: 1200px){
+	.header{
+		display: none;
+	}
+	.resHeader{
+		display: block;
+	}
+}
+
+
+@media all and (max-width: 992px){	
+	.footer .copyright{
+		text-align: center;
+	}
+	.footer .footerContact{
+		text-align: center;
+	}
+}
+
+
+@media all and (max-width: 768px){
+}
+
+
+@media all and (max-width: 576px){
+	.banner p{
+		/*line-height: 100px;*/
+		text-align: center;
+		margin-left: 0px;
+	}
+}
+
+
+
+
+
+
+

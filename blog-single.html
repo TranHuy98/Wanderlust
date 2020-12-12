@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Blog Single</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="css/blog-single.css">
+	<link rel="stylesheet" type="text/css" href="css/header-footer.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
+	<link rel="stylesheet" type="text/css" href="css/css/all.css">
+	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-datepicker3.css">
+	<link rel="stylesheet" type="text/css" href="css/flaticon.css">
+	<link rel="icon" type="image/png" href="img/travel-icon2.png">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+</head>
+<body>
+	<!-- back to top -->
+	<div class="backToTop">
+		<i class="fa fa-angle-up"></i>
+	</div>
+	<!-- end back to top -->
+
+	<!-- header -->
+	<div class="container-fluid header">
+		<div class="row">
+			<div class=" col-xl-3 col-lg-3 beginLogo">
+				<a href="index2.html">
+					<img src="img/logo.png" alt="logo">
+				</a>
+			</div>
+			<div class=" col-xl-6 col-lg-6 menu">
+				<div class="row">
+					<li class="drop">
+						<div class="row">
+							<div class=" col-xl-12">
+								<a href="#" class="itemType">HOME</a>
+							</div>
+						</div>
+						<div class="row drop-menu">
+							<div class=" col-xl-12 col-lg-12 item">
+								<a href="#">Home 1</a>
+							</div>
+							<div class=" col-xl-12 col-lg-12 item">
+								<a href="index2.html">Home 2</a>
+							</div>
+							<div class=" col-xl-12 col-lg-12 item">
+								<a href="#">Home 3</a>
+							</div>
+							<div class=" col-xl-12 col-lg-12 item">
+								<a href="#">Home 4</a>
+							</div>
+							<div class=" col-xl-12 col-lg-12 item">
+								<a href="#">Home 5</a>
+							</div>
+						</div>
+					</li>
+					<li class="drop">
+						<div class="row">
+							<div class=" col-xl-12 col-lg-12">
+								<a href="#" class="itemType">TOURS</a>
+							</div>
+						</div>
+						<div class="row drop-menu">
+							<div class=" col-xl-12 col-lg-12 item">
+								<a href="#">Tour Grid</a>
+							</div>
+							<div class=" col-xl-12 col-lg-12 item">
+								<a href="tour-list.html">Tours List</a>
+							</div>
+							<div class="col-xl-12 col-lg-12 item">
+								<div class="row">
+									<div class="col-xl-12 col-lg-12">
+										<a href="#">Tours Items</a>
+									</div>
+								</div>
+								<div class="row drop-child-menu">
+									<div class=" col-xl-12 col-lg-12 child-item">
+										<a href="tour-item.html">Tour Item</a>
+									</div>
+									<div class=" col-xl-12 col-lg-12 child-item">
+										<a href="#">Tour Item 2</a>
+									</div>
+									<div class=" col-xl-12 col-lg-12 child-item">
+										<a href="#">Tour Iteam 3</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="drop">
+						<div class="row">
+							<div class=" col-xl-12 col-lg-12">
+								<a href="#" class="itemType">DESTINATION</a>
+							</div>
+						</div>
+						<div class="row drop-menu">
+							<div class=" col-xl-12 col-lg-12 item">
+								<a href="destination-grid.html">Destination Grid</a>
+							</div>
+							<div class=" col-xl-12 col-lg-12 item">
+								<a href="#">Destination Mansory</a>
+							</div>
+							<div class=" col-xl-12 col-lg-12 item">
+								<a href="destination-item.html">Destination Item</a>
+							</div>
+						</div>
+					</li>
+					<li class="drop">
+						<div class="row">
+							<div class=" col-xl-12 col-lg-12">
+								<a href="#" class="itemType">BLOGS</a>
+							</div>
+						</div>
+						<div class="row drop-menu">
+							<div class=" col-xl-12 col-lg-12 item">
+								<a href="#">Blog List</a>
+							</div>
+							<div class=" col-xl-12 col-lg-12 item">
+								<a href="blog-list.html">Blog List</a>
+							</div>
+							<div class=" col-xl-12 col-lg-12 item">
+								<a href="blog-single.html">Blog Single</a>
+							</div>
+						</div>
+					</li>
+					<li class="drop">
+						<div class="row">
+							<div class=" col-xl-12 col-lg-12">
+								<a href="#" class="itemType">PAGES</a>
+							</div>
+						</div>
+						<div class="row drop-menu">
+							<div class=" col-xl-12 col-lg-12 item">
+								<a href="about-us.html">About Us</a>
+							</div>
+							<div class=" col-xl-12 col-lg-12 item">
+								<a href="#">404 Page</a>
+							</div>
+						</div>
+					</li>
+					<li><a href="contact.html" class="itemType">CONTACT</a></li>
+				</div>
+			</div>
+			<div class=" col-xl-3 col-lg-3 contact">
+				<div class="row">
+					<div class=" col-xl-3 col-lg-3 img">
+						<img src="img/call.png">
+					</div>
+					<div class=" col-xl-9 col-lg-9">
+						<div class="row">
+							<div class=" col-xl-12 col-lg-12">
+								<p class="title">call us today</p>
+							</div>
+							<div class=" col-xl-12 col-lg-12">
+								<p class="phone">+053 069 7810</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end header -->
+	<!-- resHeader -->
+	<div class="resHeader container">
+		<div class="logo">
+			<a href="index2.html">
+				<img src="img/logo.png">
+			</a>
+		</div>
+		<div class="headerBtn">
+			<div class="box" id="box1">
+				<div class="line1 line"></div>
+				<div class="line2 line"></div>
+				<div class="line3 line"></div>
+			</div>
+			<div class="box" id="box2">
+				<div class="line4 line"></div>
+				<div class="line5 line"></div>
+				<div class="line6 line"></div>
+			</div>
+			<div class="box" id="box3">
+				<div class="line7 line"></div>
+				<div class="line8 line"></div>
+				<div class="line9 line"></div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="hidden-drop-menu">
+				<div class="col-12 itemBox item1 ">
+					<div class="pre-hid">Home <span><i class="fa fa-angle-down"></i></span></div>
+					<div class="hid-item container">
+						<div class="row">
+							<div class="child-menu">
+								<div class="col-12">
+									<div class="hid-child"><a href="#">Home 1</a></div>
+								</div>
+								<div class="col-12">
+									<div class="hid-child"><a href="index2.html">Home 2</a></div>
+								</div>
+								<div class="col-12">
+									<div class="hid-child"><a href="#">Home 3</a></div>
+								</div>
+								<div class="col-12">
+									<div class="hid-child" id="last"><a href="#">Home 4</a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 itemBox">
+					<div class="pre-hid">Tours <span><i class="fa fa-angle-down"></i></span></div>
+					<div class="hid-item container">
+						<div class="row">
+							<div class="child-menu">
+								<div class="col-12">
+									<div class="hid-child">
+										<a href="#">tours grid</a>
+									</div>
+								</div>
+								<div class="col-12">
+									<div class="hid-child"><a href="tour-list.html">tours list</a></div>
+								</div>
+								<div class="col-12">
+									<div class="hid-child pre-hid pre-hid-child" id="last">tours items <span><i class="fa fa-angle-up"></i></span></div>
+									<div class="hid-item container" id="last">
+										<div class="row">
+											<div class="grandchild-menu">
+												<div class="col-12">
+													<div class="hid-child">
+														<a href="tour-item.html">tours item</a>
+													</div>
+												</div>
+												<div class="col-12">
+													<div class="hid-child"><a href="#">tours item 2</a></div>
+												</div>
+												<div class="col-12">
+													<div class="hid-child" id="last"><a href="#">tours item 3</a></div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 itemBox  ">
+					<div class="pre-hid">destination <span><i class="fa fa-angle-down"></i></span></div>
+					<div class="hid-item container">
+						<div class="row">
+							<div class="child-menu">
+								<div class="col-12">
+									<div class="hid-child"><a href="destination-grid.html">destination grid</a></div>
+								</div>
+								<div class="col-12">
+									<div class="hid-child"><a href="#">destination mansory</a></div>
+								</div>
+								<div class="col-12">
+									<div class="hid-child" id="last"><a href="destination-item.html">destination item</a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 itemBox  ">
+					<div class="pre-hid">blog <span><i class="fa fa-angle-down"></i></span></div>
+					<div class="hid-item container">
+						<div class="row">
+							<div class="child-menu">
+								<div class="col-12">
+									<div class="hid-child"><a href="#">blog list</a></div>
+								</div>
+								<div class="col-12">
+									<div class="hid-child"><a href="blog-grid.html">blog grid</a></div>
+								</div>
+								<div class="col-12">
+									<div class="hid-child" id="last"><a href="blog-single.html">blog single</a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 itemBox  ">
+					<div class="pre-hid">Pages <span><i class="fa fa-angle-down"></i></span></div>
+					<div class="hid-item container">
+						<div class="row">
+							<div class="child-menu">
+								<div class="col-12">
+									<div class="hid-child"><a href="about-us.html">about us</a></div>
+								</div>
+								<div class="col-12">
+									<div class="hid-child" id="last"><a href="#">404 page</a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 itemBox  ">
+					<div class="pre-hid hid-item"><a href="contact.html">Contact</a></div>
+				</div>
+				<div class="col-12 itemBox">
+					<div class="pre-hid">
+						<i class="far fa-user-circle"></i>
+						<i class="fas fa-search"></i>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end resHeader -->
+
+	<!-- banner -->
+	<div class="banner container-fluid">
+		<p>Blog</p>
+	</div>
+	<!-- end banner -->
+	<!-- level -->
+	<div class="level container">
+		<p>HOME/TOUR/<span>10 BEST TOWNS TO ENJOY THE WINTER SNOW IN JAPAN</span></p>
+	</div>
+	<div class="container-fluid" style="border-bottom: 1px solid #ccc; width: 100%"></div>
+	<!-- end level -->
+
+
+	<!-- content -->
+	<div class="content container">
+		<div class="row">
+			<!-- left -->
+			<div class="left col-xl-9 col-lg-9 col-md-12">
+				<!-- detail -->
+				<div class="detail row">
+					<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+						<div class="bigImg" style="background-image: url(img/blog-big-image.jpg);"></div>
+					</div>
+					<div class="info col-xl-12 col-lg-12 col-md-12 col-sm-12">
+						<span><p><i class="far fa-calendar-check"></i> August 10, 2019</p></span>
+						<span><p><i class="far fa-user"></i> By Admin</p></span>
+						<span><p><i class="far fa-comment-alt"></i> 6 comments</p></span>
+					</div>
+					<p class="title col-xl-12 col-lg-12">10 best towns to enjoythe winter snow in japan</p>
+					<p class="description col-xl-12 col-lg-12">Donec nec sagittis nulla, sit amet bibendum risus. Donec finibu elefin et</br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+						<div class="img" style="background-image: url(img/trending-tour-img.jpg);"></div>
+					</div>
+					<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+						<div class="img" style="background-image: url(img/trending-tour-img2.jpg);"></div>
+					</div>
+					<p class="description2 col-xl-12 col-lg-12">Donec nec sagittis nulla, sit amet bibendum risus. Donec finibu elefin et</br>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<div class="note col-xl-12 col-lg-12 col-md-12 col-sm-12">
+						<div class="row">
+							<div class="col-6 tag">
+								<p>Tags: <span>Japan, Adventure, Snow, Winter</span></p>
+							</div>
+							<div class="col-6 icon">
+								<p>Share: 
+									<span>
+										<img src="img/instar.png">
+										<img src="img/facebook.png">
+										<img src="img/twitter.png">
+									</span>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- end detail -->
+				<div class="slice"></div>
+				<!-- related -->
+				<div class="col-12 post">
+					<div class="row">
+						<p class="title">
+							Related Post
+							<span>
+								<i class="fa fa-angle-left prevPost postBtn"></i>
+								<i class="fa fa-angle-right nextPost postBtn"></i>
+							</span>
+						</p>
+					</div>
+					<div class="row related">
+						<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 post-item">
+							<div class="itemBox">
+								<div class="item">
+									<div class="itemImg" style="background-image: url(img/top-destination-img8.jpg); ">
+										<div class="overlay"></div>
+									</div>
+								</div>
+								<div class="info row">
+									<div class="col-12 title">
+										<p>5 Eco-Friendly Safari Holidays In Africa</p>
+									</div>
+									<div class="col-12 criteria">
+										<p><i class="far fa-calendar-check"></i> August 10, 2019</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 post-item">
+							<div class="itemBox">
+								<div class="item">
+									<div class="itemImg" style="background-image: url(img/top-destination-img11.jpg); ">
+										<div class="overlay"></div>
+									</div>
+								</div>
+								<div class="info row">
+									<div class="col-12 title">
+										<p>5 Eco-Friendly Safari Holidays In Africa</p>
+									</div>
+									<div class="col-12 criteria">
+										<p><i class="far fa-calendar-check"></i> August 10, 2019</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 post-item">
+							<div class="itemBox">
+								<div class="item">
+									<div class="itemImg" style="background-image: url(img/top-destination-img3.jpg); ">
+										<div class="overlay"></div>
+									</div>
+								</div>
+								<div class="info row">
+									<div class="col-12 title">
+										<p>5 Eco-Friendly Safari Holidays In Africa</p>
+									</div>
+									<div class="col-12 criteria">
+										<p><i class="far fa-calendar-check"></i> August 10, 2019</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 post-item">
+							<div class="itemBox">
+								<div class="item">
+									<div class="itemImg" style="background-image: url(img/top-destination-img5.jpg); ">
+										<div class="overlay"></div>
+									</div>
+								</div>
+								<div class="info row">
+									<div class="col-12 title">
+										<p>5 Eco-Friendly Safari Holidays In Africa</p>
+									</div>
+									<div class="col-12 criteria">
+										<p><i class="far fa-calendar-check"></i> August 10, 2019</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- end related -->
+				<!-- touristRev -->
+				<div class="col-12 touristRev">
+						<div class="row">
+							<div class="col-3">
+								<div class="portrait" style="background-image: url(img/review1.png);"></div>
+							</div>
+							<div class="col-9">
+								<p class="name">Kelly Walsh <span> (August 10, 2019)</span></p>
+								<p class="detail">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-3">
+								<div class="portrait" style="background-image: url(img/review2.png);"></div>
+							</div>
+							<div class="col-9">
+								<p class="name">Kelly Walsh <span> (August 10, 2019)</span></p>
+								<p class="detail">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							</div>
+						</div>
+				</div>
+				<!-- end touristRev -->
+				<!-- comment -->
+				<div class="row write">
+						<div class="col-12">
+							<p class="title">Leave A Comment</p>
+						</div>
+						<div class="col-6">
+							<input type="text" name="name" placeholder="Name*">
+						</div>
+						<div class="col-6">
+							<input type="email" name="email" placeholder="Email*">
+						</div>
+						<div class="col-12">
+							<textarea placeholder="Your review*"></textarea>
+						</div>
+						<div class="col-12">
+							<div class="submitBtn">SUBMIT</div>
+						</div>
+				</div>
+				<!-- end comment -->
+			</div>
+			<!-- end left -->
+			<!-- right -->
+			<div class="right col-xl-3 col-lg-3 col-md-12">
+				<div class="row">
+					<div class="col-xl-12 col-lg-12 search">
+						<input type="text" name="" placeholder="Search...">
+						<div class="searchBtn">
+							<i class="fas fa-search"></i>
+						</div>
+					</div>
+					<div class="categories col-xl-12 col-lg-12">
+						<p class="title">categories</p>
+						<p class="item">Adventure <span>(10)</span></p>
+						<p class="item">Adventure <span>(10)</span></p>
+						<p class="item">Adventure <span>(10)</span></p>
+						<p class="item">Adventure <span>(10)</span></p>
+						<p class="item">Adventure <span>(10)</span></p>
+					</div>
+					<div class="col-xl-12 col-lg-12 recent">
+						<p class="title">recent post</p>
+						<div class="row">
+							<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+								<div class="row">
+									<div class="col-4">
+										<div class="insImg" style="background-image: url(img/author2.png);"></div>
+									</div>
+									<div class="col-8">
+										<p class="postTitle">10 Best Towns To Enjoy The Winter Snow In Japan</p>
+										<p class="date">August 9, 2019</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+								<div class="row">
+									<div class="col-4">
+										<div class="insImg" style="background-image: url(img/author2.png);"></div>
+									</div>
+									<div class="col-8">
+										<p class="postTitle">10 Best Towns To Enjoy The Winter Snow In Japan</p>
+										<p class="date">August 9, 2019</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+								<div class="row">
+									<div class="col-4">
+										<div class="insImg" style="background-image: url(img/author2.png);"></div>
+									</div>
+									<div class="col-8">
+										<p class="postTitle">10 Best Towns To Enjoy The Winter Snow In Japan</p>
+										<p class="date">August 9, 2019</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="tags col-xl-12 col-lg-12">
+						<p class="title">Tags</p>
+						<p class="item">Destinaton</p>
+						<p class="item">Travel</p>
+						<p class="item">Tip</p>
+						<p class="item">Discover</p>
+						<p class="item">Tour</p>
+						<p class="item">Explore</p>
+					</div>
+				</div>
+			</div>
+			<!-- end right -->
+		</div>
+	</div>
+	<!-- end content -->
+
+
+
+
+
+
+
+
+
+
+	<!-- footer -->
+	<div class="footer container-fluid">
+		<div class="container">
+			<div class="row">
+				<div class=" col-xl-4 col-lg-4 col-md-4 col-sm-6 label">
+					<div class="title">
+						<p>get in touch</p>
+						<div class="slice"></div>
+					</div>
+					<div class="icon row">
+						<div class=" col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4 img"><a href="#"><img src="img/instar2.png"></a></div>
+						<div class=" col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4  img"><a href="#"><img src="img/facebook2.png"></a></div>
+						<div class=" col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4 img"><a href="#"><img src="img/twitter2.png"></a></div>
+						<div class=" col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4 img"><a href="#"><img src="img/v.png"></a></div>
+						<div class=" col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4 img"><a href="#"><img src="img/youtube.png"></a></div>
+						<div class=" col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4 img"><a href="#"><img src="img/pinterest.png"></a></div>
+					</div>
+				</div>
+				<div class=" col-xl-4 col-lg-4 col-md-4 col-sm-6 map">
+					<div class="row">
+						<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12" style="display: flex; justify-content: center; align-items: center;">
+							<img src="img/footer-world.png">
+						</div>
+						<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+							<p>East 8th Street, New York, USA</p>
+						</div>
+					</div>
+				</div>
+				<div class=" col-xl-4 col-lg-4 col-md-4 col-sm-12 subscribe">
+					<p class="title">newsletter</p>
+					<div class="slice"></div>
+					<input type="email" name="email" placeholder="Your email...">
+					<input type="submit" name="" value="submit" class="subBtn">
+				</div>
+			</div>
+		</div>
+		<div class="row line"></div>
+		<div class="container">
+			<div class="row">
+				<div class=" col-xl-6 col-lg-6 col-md-12 col-sm-12">
+					<p class="copyright">Copyright <i class="far fa-copyright"></i> 2019 Wunderlust. All Rights Reserved</p>
+				</div>
+				<div class=" col-xl-6 col-lg-6 col-md-12 col-sm-12 footerContact">
+					<li><a href="tour-list.html">tour</a></li>
+					<li><a href="destination-grid.html">destination</a></li>
+					<li><a href="#">discover</a></li>
+					<li><a href="#">faqs</a></li>
+					<li><a href="contact.html">contact</a></li>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end footer -->
+	
+
+
+
+
+
+
+	<!-- JS -->
+	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="js/blog-single.js"></script>
+	<script type="text/javascript" src="js/header-footer.js"></script>
+	<script type="text/javascript" src="slick/slick.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap-datepicker.min.js"></script>
+	<!-- scroll event -->
+	<script type="text/javascript" src="js/jquery.waypoints.min.js"></script>
+	<script type="text/javascript" src="js/jquery.counterup.js"></script>
+</body>
+</html>

@@ -1,0 +1,999 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tour Item</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="css/tour-item.css">
+	<link rel="stylesheet" type="text/css" href="css/header-footer.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
+	<link rel="stylesheet" type="text/css" href="css/css/all.css">
+	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-datepicker3.css">
+	<link rel="stylesheet" type="text/css" href="css/flaticon.css">
+	<link rel="icon" type="image/png" href="img/travel-icon2.png">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+</head>
+<body>
+	<!-- back to top -->
+	<div class="backToTop">
+		<i class="fa fa-angle-up"></i>
+	</div>
+	<!-- end back to top -->
+	<!-- header -->
+	<div class="container-fluid header">
+		<div class="row">
+			<div class=" col-xl-3 col-lg-3 beginLogo">
+				<a href="index2.html">
+					<img src="img/logo.png" alt="logo">
+				</a>
+			</div>
+			<div class=" col-xl-6 col-lg-6 menu">
+				<div class="row">
+					<li class="drop">
+						<div class="row">
+							<div class=" col-xl-12">
+								<a href="#" class="itemType">HOME</a>
+							</div>
+						</div>
+						<div class="row drop-menu">
+							<div class=" col-xl-12 col-lg-12 item">
+								<a href="#">Home 1</a>
+							</div>
+							<div class=" col-xl-12 col-lg-12 item">
+								<a href="index2.html">Home 2</a>
+							</div>
+							<div class=" col-xl-12 col-lg-12 item">
+								<a href="#">Home 3</a>
+							</div>
+							<div class=" col-xl-12 col-lg-12 item">
+								<a href="#">Home 4</a>
+							</div>
+							<div class=" col-xl-12 col-lg-12 item">
+								<a href="#">Home 5</a>
+							</div>
+						</div>
+					</li>
+					<li class="drop">
+						<div class="row">
+							<div class=" col-xl-12 col-lg-12">
+								<a href="#" class="itemType">TOURS</a>
+							</div>
+						</div>
+						<div class="row drop-menu">
+							<div class=" col-xl-12 col-lg-12 item">
+								<a href="#">Tour Grid</a>
+							</div>
+							<div class=" col-xl-12 col-lg-12 item">
+								<a href="tour-list.html">Tours List</a>
+							</div>
+							<div class="col-xl-12 col-lg-12 item">
+								<div class="row">
+									<div class="col-xl-12 col-lg-12">
+										<a href="#">Tours Items</a>
+									</div>
+								</div>
+								<div class="row drop-child-menu">
+									<div class=" col-xl-12 col-lg-12 child-item">
+										<a href="tour-item.html">Tour Item</a>
+									</div>
+									<div class=" col-xl-12 col-lg-12 child-item">
+										<a href="#">Tour Item 2</a>
+									</div>
+									<div class=" col-xl-12 col-lg-12 child-item">
+										<a href="#">Tour Iteam 3</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="drop">
+						<div class="row">
+							<div class=" col-xl-12 col-lg-12">
+								<a href="#" class="itemType">DESTINATION</a>
+							</div>
+						</div>
+						<div class="row drop-menu">
+							<div class=" col-xl-12 col-lg-12 item">
+								<a href="destination-grid.html">Destination Grid</a>
+							</div>
+							<div class=" col-xl-12 col-lg-12 item">
+								<a href="#">Destination Mansory</a>
+							</div>
+							<div class=" col-xl-12 col-lg-12 item">
+								<a href="destination-item.html">Destination Item</a>
+							</div>
+						</div>
+					</li>
+					<li class="drop">
+						<div class="row">
+							<div class=" col-xl-12 col-lg-12">
+								<a href="#" class="itemType">BLOGS</a>
+							</div>
+						</div>
+						<div class="row drop-menu">
+							<div class=" col-xl-12 col-lg-12 item">
+								<a href="#">Blog List</a>
+							</div>
+							<div class=" col-xl-12 col-lg-12 item">
+								<a href="blog-list.html">Blog List</a>
+							</div>
+							<div class=" col-xl-12 col-lg-12 item">
+								<a href="blog-single.html">Blog Single</a>
+							</div>
+						</div>
+					</li>
+					<li class="drop">
+						<div class="row">
+							<div class=" col-xl-12 col-lg-12">
+								<a href="#" class="itemType">PAGES</a>
+							</div>
+						</div>
+						<div class="row drop-menu">
+							<div class=" col-xl-12 col-lg-12 item">
+								<a href="about-us.html">About Us</a>
+							</div>
+							<div class=" col-xl-12 col-lg-12 item">
+								<a href="#">404 Page</a>
+							</div>
+						</div>
+					</li>
+					<li><a href="contact.html" class="itemType">CONTACT</a></li>
+				</div>
+			</div>
+			<div class=" col-xl-3 col-lg-3 contact">
+				<div class="row">
+					<div class=" col-xl-3 col-lg-3 img">
+						<img src="img/call.png">
+					</div>
+					<div class=" col-xl-9 col-lg-9">
+						<div class="row">
+							<div class=" col-xl-12 col-lg-12">
+								<p class="title">call us today</p>
+							</div>
+							<div class=" col-xl-12 col-lg-12">
+								<p class="phone">+053 069 7810</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end header -->
+	<!-- resHeader -->
+	<div class="resHeader container">
+		<div class="logo">
+			<a href="index2.html">
+				<img src="img/logo.png">
+			</a>
+		</div>
+		<div class="headerBtn">
+			<div class="box" id="box1">
+				<div class="line1 line"></div>
+				<div class="line2 line"></div>
+				<div class="line3 line"></div>
+			</div>
+			<div class="box" id="box2">
+				<div class="line4 line"></div>
+				<div class="line5 line"></div>
+				<div class="line6 line"></div>
+			</div>
+			<div class="box" id="box3">
+				<div class="line7 line"></div>
+				<div class="line8 line"></div>
+				<div class="line9 line"></div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="hidden-drop-menu">
+				<div class="col-12 itemBox item1 ">
+					<div class="pre-hid">Home <span><i class="fa fa-angle-down"></i></span></div>
+					<div class="hid-item container">
+						<div class="row">
+							<div class="child-menu">
+								<div class="col-12">
+									<div class="hid-child"><a href="#">Home 1</a></div>
+								</div>
+								<div class="col-12">
+									<div class="hid-child"><a href="index2.html">Home 2</a></div>
+								</div>
+								<div class="col-12">
+									<div class="hid-child"><a href="#">Home 3</a></div>
+								</div>
+								<div class="col-12">
+									<div class="hid-child" id="last"><a href="#">Home 4</a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 itemBox">
+					<div class="pre-hid">Tours <span><i class="fa fa-angle-down"></i></span></div>
+					<div class="hid-item container">
+						<div class="row">
+							<div class="child-menu">
+								<div class="col-12">
+									<div class="hid-child">
+										<a href="#">tours grid</a>
+									</div>
+								</div>
+								<div class="col-12">
+									<div class="hid-child"><a href="tour-list.html">tours list</a></div>
+								</div>
+								<div class="col-12">
+									<div class="hid-child pre-hid pre-hid-child" id="last">tours items <span><i class="fa fa-angle-up"></i></span></div>
+									<div class="hid-item container" id="last">
+										<div class="row">
+											<div class="grandchild-menu">
+												<div class="col-12">
+													<div class="hid-child">
+														<a href="tour-item.html">tours item</a>
+													</div>
+												</div>
+												<div class="col-12">
+													<div class="hid-child"><a href="#">tours item 2</a></div>
+												</div>
+												<div class="col-12">
+													<div class="hid-child" id="last"><a href="#">tours item 3</a></div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 itemBox  ">
+					<div class="pre-hid">destination <span><i class="fa fa-angle-down"></i></span></div>
+					<div class="hid-item container">
+						<div class="row">
+							<div class="child-menu">
+								<div class="col-12">
+									<div class="hid-child"><a href="destination-grid.html">destination grid</a></div>
+								</div>
+								<div class="col-12">
+									<div class="hid-child"><a href="#">destination mansory</a></div>
+								</div>
+								<div class="col-12">
+									<div class="hid-child" id="last"><a href="destination-item.html">destination item</a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 itemBox  ">
+					<div class="pre-hid">blog <span><i class="fa fa-angle-down"></i></span></div>
+					<div class="hid-item container">
+						<div class="row">
+							<div class="child-menu">
+								<div class="col-12">
+									<div class="hid-child"><a href="#">blog list</a></div>
+								</div>
+								<div class="col-12">
+									<div class="hid-child"><a href="blog-grid.html">blog grid</a></div>
+								</div>
+								<div class="col-12">
+									<div class="hid-child" id="last"><a href="blog-single.html">blog single</a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 itemBox  ">
+					<div class="pre-hid">Pages <span><i class="fa fa-angle-down"></i></span></div>
+					<div class="hid-item container">
+						<div class="row">
+							<div class="child-menu">
+								<div class="col-12">
+									<div class="hid-child"><a href="about-us.html">about us</a></div>
+								</div>
+								<div class="col-12">
+									<div class="hid-child" id="last"><a href="#">404 page</a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 itemBox  ">
+					<div class="pre-hid hid-item"><a href="contact.html">Contact</a></div>
+				</div>
+				<div class="col-12 itemBox">
+					<div class="pre-hid">
+						<i class="far fa-user-circle"></i>
+						<i class="fas fa-search"></i>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end resHeader -->
+
+
+	<!-- banner -->
+	<div class="banner container-fluid">
+		<div class="viewPhoto">
+			<p><img src="img/tour-item-view-photo.png"> Photos</p>
+		</div>
+		<div class="viewVideo">
+			<p><img src="img/tour-item-view-video.png"> Videos</p>
+		</div>
+	</div>
+	<!-- banner -->
+	<!-- content -->
+	<div class="content container">
+		<div class="row">
+			<!-- left -->
+			<div class="left col-xl-8 col-lg-8 col-md-12">
+				<div class="row opening">
+					<div class="col-12 title">
+						<p>Everest Base Camp Trekking</p>
+					</div>
+					<div class="col-12 rating">
+						<p>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="far fa-star"></i>
+						</p>
+					</div>
+					<div class="col-6">
+						<p><img src="img/tour-lasting.png"> 5 Days 4 Nights</p>
+					</div>
+					<div class="col-6">
+						<p><img src="img/group-tourist.png"> Group: 5 - 10 people</p>
+					</div>
+					<div class="col-6">
+						<p><img src="img/location-marker.png"> Nepal</p>
+					</div>
+					<div class="col-6">
+						<p><img src="img/age-limit.png"> Min Age: 15+</p>
+					</div>
+				</div>
+				<div class="slice"></div>
+				<div class="detail">
+					<p class="title">Infomation</p>
+					<p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+				<div class="slice"></div>
+				<div class="row criteria">
+					<div class="col-6">
+						<p class="crit">Departure</p>
+					</div>
+					<div class="col-6">
+						<p class="info">Kathmandu International Airport</p>
+					</div>
+				</div>
+				<div class="slice"></div>
+				<div class="row criteria">
+					<div class="col-6">
+						<p class="crit">Departure</p>
+					</div>
+					<div class="col-6">
+						<p class="info">Kathmandu International Airport</p>
+					</div>
+				</div>
+				<div class="slice"></div>
+				<div class="row criteria">
+					<div class="col-6">
+						<p class="crit">Departure</p>
+					</div>
+					<div class="col-6">
+						<p class="info">Kathmandu International Airport</p>
+					</div>
+				</div>
+				<div class="slice"></div>
+				<div class="row criteria">
+					<div class="col-6">
+						<p class="crit">Departure</p>
+					</div>
+					<div class="col-6">
+						<p class="info">Kathmandu International Airport</p>
+					</div>
+				</div>
+				<div class="slice"></div>
+				<div class="row criteria">
+					<div class="col-6">
+						<p class="crit">Price Includes</p>
+					</div>
+					<div class="col-6">
+						<p class="info include">
+							<i class="fas fa-check"></i> Acommodatio</br>
+							<i class="fas fa-check"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</br>
+							<i class="fas fa-check"></i> Acommodatio</br>
+							<i class="fas fa-check"></i> Acommodatio</br>
+							<i class="fas fa-check"></i> Acommodatio</br>
+						</p>
+					</div>
+				</div>
+				<div class="slice"></div>
+				<div class="row criteria">
+					<div class="col-6">
+						<p class="crit">Price Excludes</p>
+					</div>
+					<div class="col-6">
+						<p class="info exclude">
+							<i class="fas fa-times"></i> Accommodatio</br>
+							<i class="fas fa-times"></i> Accommodatio</br>
+							<i class="fas fa-times"></i> Accommodatio</br>
+							<i class="fas fa-times"></i> Accommodatio</br>
+							<i class="fas fa-times"></i> Accommodatio</br>
+							<i class="fas fa-times"></i> Accommodatio</br>
+						</p>
+					</div>
+				</div>
+				<div class="slice"></div>
+				<div class="row map">
+					<div class="col-12">
+						<p class="title">Activity's Location</p>
+					</div>
+					<div class="col-12">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48388.5324770725!2d-74.004261!3d40.71178!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2zVGjDoG5oIHBo4buRIE5ldyBZb3JrLCBUaeG7g3UgYmFuZyBOZXcgWW9yaw!5e0!3m2!1svi!2sus!4v1606529524006!5m2!1svi!2sus" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+					</div>
+				</div>
+				<div class="schedule row">
+					<div class="col-12">
+						<p class="title"> Schedule</p>
+					</div>
+					<div class="day col-12" id="box">
+						<p class="shortInfo">Day 1: Arrival in Kathmandu Valley <span class="toggleBtn">
+							<!-- <i class="fa fa-angle-down"></i> -->
+						</span></p>
+						<p class="fullInfo FIsch">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+					<div class="day col-12">
+						<p class="shortInfo">Day 2: Arrival in Kathmandu Valley</p>
+						<p class="fullInfo FIsch">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+					<div class="day col-12">
+						<p class="shortInfo">Day 3: Arrival in Kathmandu Valley</p>
+						<p class="fullInfo FIsch">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+					<div class="day col-12">
+						<p class="shortInfo">Day 4: Arrival in Kathmandu Valley</p>
+						<p class="fullInfo FIsch">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+					<div class="day col-12">
+						<p class="shortInfo">Day 5: Arrival in Kathmandu Valley</p>
+						<p class="fullInfo FIsch">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+					
+				</div>
+				<!-- faqs -->
+				<div class="faqs row">
+					<div class="col-12">
+						<p class="title"> FAQs</p>
+					</div>
+					<div class="ask col-12">
+						<p class="shortInfo">Day 1: Arrival in Kathmandu Valley</p>
+						<p class="fullInfo FIask">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+					<div class="ask col-12">
+						<p class="shortInfo">Day 2: Arrival in Kathmandu Valley</p>
+						<p class="fullInfo FIask">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+					<div class="ask col-12">
+						<p class="shortInfo">Day 3: Arrival in Kathmandu Valley</p>
+						<p class="fullInfo FIask">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+					<div class="ask col-12">
+						<p class="shortInfo">Day 4: Arrival in Kathmandu Valley</p>
+						<p class="fullInfo FIask">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+				</div>
+				<!-- end faqs -->
+				<!-- review -->
+				<div class="row review">
+					<div class="col-12">
+						<p class="title">Reviews</p>
+					</div>
+					<div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-12 average">
+						<div class="row">
+							<p class="number col-12">4.8 <span>/ 5</span></p>
+							<p class="rating col-12">Excellent</p>
+						</div>
+					</div>
+					<div class="col-xl-9 col-lg-9 col-md-9 col-sm-12 col-12 stat">
+						<div class="row">
+							<div class="col-12">
+								<div class="row">
+									<div class="col-2 rateWord">
+										<p>Excellent</p>
+									</div>
+									<div class="col-4 rateStar">
+										<p>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+										</p>
+									</div>
+									<div class="col-5 rateBar">
+										<div class="rateBardiv">
+											<div class="r5"></div>
+										</div>
+									</div>
+									<div class="col-1 rateNumber">
+										<p>24</p>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-2 rateWord">
+										<p>Good</p>
+									</div>
+									<div class="col-4 rateStar">
+										<p>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+										</p>
+									</div>
+									<div class="col-5 rateBar container">
+										<div class="rateBardiv">
+											<div class="r4"></div>
+										</div>
+									</div>
+									<div class="col-1 rateNumber">
+										<p>19</p>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-2 rateWord">
+										<p>Average</p>
+									</div>
+									<div class="col-4 rateStar">
+										<p>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+										</p>
+									</div>
+									<div class="col-5 rateBar container">
+										<div class="rateBardiv">
+											<div class="r2"></div>
+										</div>
+									</div>
+									<div class="col-1 rateNumber">
+										<p>0</p>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-2 rateWord">
+										<p>Poor</p>
+									</div>
+									<div class="col-4 rateStar">
+										<p>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+										</p>
+									</div>
+									<div class="col-5 rateBar container">
+										<div class="rateBardiv">
+											<div class="r2"></div>
+										</div>
+									</div>
+									<div class="col-1 rateNumber">
+										<p>0</p>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-2 rateWord">
+										<p>Terrible</p>
+									</div>
+									<div class="col-4 rateStar">
+										<p>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+										</p>
+									</div>
+									<div class="col-5 rateBar container">
+										<div class="rateBardiv">
+											<div class="r1"></div>
+										</div>
+									</div>
+									<div class="col-1 rateNumber">
+										<p>0</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 touristRev">
+						<div class="row">
+							<div class="col-3">
+								<div class="portrait" style="background-image: url(img/review1.png);"></div>
+							</div>
+							<div class="col-9">
+								<p class="name">Kelly Walsh <span> (August 10, 2019)</span></p>
+								<p class="star">
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+								</p>
+								<p class="detail">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							</div>
+						</div>
+						<div class="row" style="margin-top: 15px;">
+							<div class="col-3">
+								<div class="portrait" style="background-image: url(img/review2.png);"></div>
+							</div>
+							<div class="col-9">
+								<p class="name">Kelly Walsh <span> (August 10, 2019)</span></p>
+								<p class="star">
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+								</p>
+								<p class="detail">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							</div>
+						</div>
+					</div>
+					<div class="slice"></div>
+				</div>
+				<!-- end review -->
+				<!-- write -->
+				<div class="row write">
+						<div class="col-12">
+							<p class="title">Write A Review</p>
+						</div>
+						
+						<p class="note col-12">Your email address will not be published. Required fields are marked *</p>
+						<p class="yourRate col-12">
+							Your Rating: 
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+						</p>
+						<p class="col-12 yourRev">Your Review</p>
+						<div class="col-6">
+							<input type="text" name="name" placeholder="Name*">
+						</div>
+						<div class="col-6">
+							<input type="email" name="email" placeholder="Email*">
+						</div>
+						<div class="col-12">
+							<textarea placeholder="Your review*"></textarea>
+						</div>
+						<div class="col-12">
+							<input type="submit" value="submit" class="submitBtn">
+						</div>
+				</div>
+				<!-- end write -->
+			</div>
+			<!-- end left -->
+			<div class="right col-xl-4 col-lg-4 col-md-12">
+				<div class="plan row">
+					<div class=" col-xl-12 col-lg-12 col-md-12 title">
+						<p>From <span class="origin">$999</span> <span class="discounted">$799</span></p>
+					</div>
+					<div class=" col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 checkin item">
+						<p>Full Name *</p>
+						<input type="text" name="">
+					</div>
+					<div class=" col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 checkin item">
+						<p>Email Address *</p>
+						<input type="email" name="">
+					</div>
+					<div class=" col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 checkout item">
+						<p>Travel Date *</p>
+						<input value="22 / 5 / 2020 " type="text" id="date-check-out" data-select="datepicker" autocomplete="off" name="date">
+					</div>
+					<div class=" col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 checkin item">
+						<p>People *</p>
+						<input type="text" name="">
+					</div>
+					<div class=" col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 checkin item">
+						<p>Your Enquiry *</p>
+						<textarea></textarea>
+					</div>
+					<div class=" col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+						<input type="submit" name="" value="book now" class="book">
+					</div>
+				</div>
+				<div class="question row">
+					<div class="col-12">
+						<p class="title">get a question?</p>
+					</div>
+					<div class="col-12">
+						<p class="hint">Do not hesitate to give us a call. We are an expert team and we happy to talk to you.</p>
+					</div>
+					<div class="phone col-12">
+						<p><img src="img/phone.png">+053 369 1254</p>
+					</div>
+					<div class="mail col-12">
+						<p><img src="img/mail.png">wunderlust@support.com</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end content -->
+	
+	<!-- discover -->
+	<div class="container discover">
+		<div class="row title">
+			<h2 class="col-12">discover</h2>
+			<h5 class="col-12">similar <span>tours</span></h5>
+			<div class="slice"></div>
+		</div>
+		<div class="row image">
+			<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-10">
+				<div class="itemBox">
+					<div class="sale">
+						<div class="text">
+							<p>sale</p>
+						</div>
+					</div>
+					<div class="item">
+						<div class="itemImg" style="background-image: url(img/trending-tour-img.jpg); "></div>
+					</div>
+					<div class="info">
+						<p class="title">nepal camp treks</p>
+						<p class="rating">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="far fa-star"></i>
+						</p>
+						<p class="price">$999</p>
+						<p class="detail">
+							<img src="img/tour-lasting.png">
+							5 Days/ 4 Night
+						</p>
+						<p class="discount">$799</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-10">
+				<div class="itemBox notSale">
+					<div class="sale">
+						<div class="text">
+							<p>sale</p>
+						</div>
+					</div>
+					<div class="item">
+						<div class="itemImg" style="background-image: url(img/trending-tour-img1.jpg); "></div>
+					</div>
+					<div class="info">
+						<p class="title">nepal camp treks</p>
+						<p class="rating">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="far fa-star"></i>
+						</p>
+						<p class="price">$999</p>
+						<p class="detail">
+							<img src="img/tour-lasting.png">
+							5 Days/ 4 Night
+						</p>
+						<p class="discount">$799</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-10">
+				<div class="itemBox notSale">
+					<div class="sale">
+						<div class="text">
+							<p>sale</p>
+						</div>
+					</div>
+					<div class="item">
+						<div class="itemImg" style="background-image: url(img/trending-tour-img2.jpg); "></div>
+					</div>
+					<div class="info">
+						<p class="title">nepal camp treks</p>
+						<p class="rating">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="far fa-star"></i>
+						</p>
+						<p class="price">$999</p>
+						<p class="detail">
+							<img src="img/tour-lasting.png">
+							5 Days/ 4 Night
+						</p>
+						<p class="discount">$799</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-10">
+				<div class="itemBox notSale">
+					<div class="sale">
+						<div class="text">
+							<p>sale</p>
+						</div>
+					</div>
+					<div class="item">
+						<div class="itemImg" style="background-image: url(img/trending-tour-img3.jpg); "></div>
+					</div>
+					<div class="info">
+						<p class="title">nepal camp treks</p>
+						<p class="rating">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="far fa-star"></i>
+						</p>
+						<p class="price">$999</p>
+						<p class="detail">
+							<img src="img/tour-lasting.png">
+							5 Days/ 4 Night
+						</p>
+						<p class="discount">$799</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--end discover -->
+
+	<!-- footer -->
+	<div class="footer container-fluid">
+		<div class="container">
+			<div class="row">
+				<div class=" col-xl-4 col-lg-4 col-md-4 col-sm-6 label">
+					<div class="title">
+						<p>get in touch</p>
+						<div class="slice"></div>
+					</div>
+					<div class="icon row">
+						<div class=" col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4 img"><a href="#"><img src="img/instar2.png"></a></div>
+						<div class=" col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4  img"><a href="#"><img src="img/facebook2.png"></a></div>
+						<div class=" col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4 img"><a href="#"><img src="img/twitter2.png"></a></div>
+						<div class=" col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4 img"><a href="#"><img src="img/v.png"></a></div>
+						<div class=" col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4 img"><a href="#"><img src="img/youtube.png"></a></div>
+						<div class=" col-xl-4 col-lg-4 col-md-4 col-sm-4 col-4 img"><a href="#"><img src="img/pinterest.png"></a></div>
+					</div>
+				</div>
+				<div class=" col-xl-4 col-lg-4 col-md-4 col-sm-6 map">
+					<div class="row">
+						<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12" style="display: flex; justify-content: center; align-items: center;">
+							<img src="img/footer-world.png">
+						</div>
+						<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+							<p>East 8th Street, New York, USA</p>
+						</div>
+					</div>
+				</div>
+				<div class=" col-xl-4 col-lg-4 col-md-4 col-sm-12 subscribe">
+					<p class="title">newsletter</p>
+					<div class="slice"></div>
+					<input type="email" name="email" placeholder="Your email...">
+					<input type="submit" name="" value="submit" class="subBtn">
+				</div>
+			</div>
+		</div>
+		<div class="row line"></div>
+		<div class="container">
+			<div class="row">
+				<div class=" col-xl-6 col-lg-6 col-md-12 col-sm-12">
+					<p class="copyright">Copyright <i class="far fa-copyright"></i> 2019 Wunderlust. All Rights Reserved</p>
+				</div>
+				<div class=" col-xl-6 col-lg-6 col-md-12 col-sm-12 footerContact">
+					<li><a href="tour-list.html">tour</a></li>
+					<li><a href="destination-grid.html">destination</a></li>
+					<li><a href="#">discover</a></li>
+					<li><a href="#">faqs</a></li>
+					<li><a href="contact.html">contact</a></li>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end footer -->
+	
+
+
+
+
+
+
+	<!-- JS -->
+	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="js/tour-item.js"></script>
+	<script type="text/javascript" src="js/header-footer.js"></script>
+	<script type="text/javascript" src="slick/slick.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap-datepicker.min.js"></script>
+	<!-- scroll event -->
+	<script type="text/javascript" src="js/jquery.waypoints.min.js"></script>
+	<script type="text/javascript" src="js/jquery.counterup.js"></script>
+</body>
+</html>
