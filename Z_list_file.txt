@@ -1,10 +1,10 @@
 Wanderlust
 
-1.index		= done(popular destination)
+1.index		= done
 
 2.tour-list	= done. (filter bar)
 
-3.tour-item	= done. (rating bar still has some problems)
+3.tour-item	= done.
 
 4.destination-grid	= done.
 
@@ -21,7 +21,4 @@ Wanderlust
 *** menu = 100%;
 
 REMAIN: 1 / all responsive. not filter price
-COMPLETE: 8
-
-# new task: thay link book tour ve link cua cty
-webhotel.vn
+COMPLETE: 8.5
