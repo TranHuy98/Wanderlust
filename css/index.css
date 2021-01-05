@@ -30,7 +30,7 @@
 	/*height: 80px;*/
 }
 .banner .booking .item{
-	height: 80px
+	height: 80px;
 }
 .banner .booking .item p{
 	text-transform: uppercase;
@@ -417,6 +417,21 @@
 	position: absolute;
 	top: 10%;
 	left: 10%;
+}
+#video #stop-video{
+	color: white;
+	font-size: 30px;
+	cursor: pointer;
+	z-index: 100;
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	top: 0;
+	right: 0;
+	border: 1px solid white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 /*end video*/
 

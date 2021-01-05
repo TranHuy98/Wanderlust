@@ -73,3 +73,31 @@ $(document).ready(function(){
       };
       date_input.datepicker(options);
     });
+
+//checkin checkout icon
+$(document).ready(function(){
+	$('.banner .booking .item input').mouseenter(function(){
+		$(this).parent().find('i').css('color','#3fced3');
+	});
+	$('.banner .booking .item input').mouseleave(function(){
+		$(this).parent().find('i').css('color','black');
+	});
+	$('.banner .booking .item input').focus(function(){
+		$(this).parent().find('i').css('color','#3fced3');
+	});
+});
+
+//stop video
+$(document).ready(function(){
+	$( '#stop-video' ).click(function(e){
+		var $youTubeUrl = $('#pvid').attr('src');
+		// alert(youTubeUrl);
+		e.preventDefault();  
+		//Then assign the src to null, this then stops the video been playing
+		$('#pvid').attr('src', '');
+
+		// Finally you reasign the URL back to your iframe, so when you hide and load it again you still have the link
+		$('#pvid').attr('src',$youTubeUrl);
+
+	});
+});
