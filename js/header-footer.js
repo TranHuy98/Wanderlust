@@ -57,20 +57,3 @@ $(document).ready(function(){
    });
 });
 
-
-//video
-$(document).ready(function(){
-  $('.vidBtn').click(function(){
-    $('#video').css('display','block');
-  });
-});
-
-$(document).ready(function(){
-  window.addEventListener('mouseup',function(event){
-    var pvid = document.getElementById('pvid');
-    var video = document.getElementById('video');
-    if(event.target != pvid && event.target.parentNode != pvid){
-             video.style.display = 'none';
-          }
-  });
-});

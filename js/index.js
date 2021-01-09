@@ -87,17 +87,33 @@ $(document).ready(function(){
 	});
 });
 
+//open video
+$(document).ready(function(){
+	var $youTubeUrl = $('#pvid').attr('src');
+  	$('.vidBtn').click(function(){
+  		$('#pvid').attr('src',$youTubeUrl);
+      	$('#video').show();
+	});
+});
+
 //stop video
 $(document).ready(function(){
 	$( '#stop-video' ).click(function(e){
 		var $youTubeUrl = $('#pvid').attr('src');
-		// alert(youTubeUrl);
 		e.preventDefault();  
-		//Then assign the src to null, this then stops the video been playing
-		$('#pvid').attr('src', '');
-
-		// Finally you reasign the URL back to your iframe, so when you hide and load it again you still have the link
-		$('#pvid').attr('src',$youTubeUrl);
-
+		// $('#pvid').attr('src', '');
+		$('#pvid').removeAttr('src');
+		$('#video').hide();
 	});
+});
+
+// close video popup when not click on it
+$(document).mouseup(function(e){
+	var $youTubeUrl = $('#pvid').attr('src');
+    // if the target of the click isn't the video nor a descendant of the video
+    if(!$('#pvid').is(e.target) && $('#pvid').has(e.target).length === 0){
+    	// $('#pvid').attr('src', '');
+    	$('#pvid').removeAttr('src');
+        $('#video').hide();
+    }
 });
