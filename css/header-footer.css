@@ -17,7 +17,7 @@ body{
 	opacity: 0.7;
 	position: fixed;
 	bottom: -10%;
-	right: 2%;
+	right: 3%;
 	z-index: 10;
 	transition: all 0.5s
 }
@@ -29,10 +29,28 @@ body{
 /*HEADER*/
 .header{
 	height: 120px;
+	background-color: white;
 }
-.header *{
-	/*border: 1px solid red;*/
+.fixed-header{
+	animation-duration: 0.5s;
+	animation-timing-function: linear;
+	animation-fill-mode: forwards;
+	position: fixed !important;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	animation-name: headerShow;
+	border-bottom: 2px solid #ccc;
 }
+@keyframes headerShow{
+	0%{
+		top: -120px;
+	}
+	100%{
+		top: 0;
+	}
+}
+
 .header .beginLogo{
 	display: flex;
 	justify-content: center;
@@ -171,6 +189,7 @@ body{
 	height: 120px;
 	position: relative;
 	display: none;
+	background-color: white;
 }
 .resHeader .logo{
 	height: 120px;
@@ -358,8 +377,10 @@ body{
 /*drop-menu*/
 .resHeader .hidden-drop-menu{
 	width: 90%;
-	position: absolute;
-	top: 100%;
+	height: calc(100% - 120px);
+	overflow-y: scroll;
+	position: fixed;
+	top: 120px;
 	left: 5%;
 	z-index: 5;
 	display: none;

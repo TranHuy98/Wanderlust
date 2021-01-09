@@ -1,4 +1,21 @@
 
+//header scroll fixed
+$(document).ready(function(){
+  $(window).scroll(function(){
+    var pos = $('html,body').scrollTop();
+    if(pos>120){
+      $('.header').addClass('fixed-header');
+      $('.resHeader').addClass('fixed-header');
+    }
+    else{
+      $('.header').removeClass('fixed-header');
+      $('.resHeader').removeClass('fixed-header');
+    }
+  });
+});
+
+
+
 // header button animation
 $(document).ready(function(){
   $('#box1').click(function(){
