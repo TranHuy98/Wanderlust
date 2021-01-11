@@ -101,7 +101,6 @@ $(document).ready(function(){
 	$( '#stop-video' ).click(function(e){
 		var $youTubeUrl = $('#pvid').attr('src');
 		e.preventDefault();  
-		// $('#pvid').attr('src', '');
 		$('#pvid').removeAttr('src');
 		$('#video').hide();
 	});
@@ -112,7 +111,6 @@ $(document).mouseup(function(e){
 	var $youTubeUrl = $('#pvid').attr('src');
     // if the target of the click isn't the video nor a descendant of the video
     if(!$('#pvid').is(e.target) && $('#pvid').has(e.target).length === 0){
-    	// $('#pvid').attr('src', '');
     	$('#pvid').removeAttr('src');
         $('#video').hide();
     }

@@ -389,6 +389,7 @@ body{
 }
 .resHeader .hidden-drop-menu .itemBox{
 	background-color: white;
+	border-bottom: 2px solid #ccc;
 }
 .resHeader .hidden-drop-menu .item1{
 	background-color: white;
