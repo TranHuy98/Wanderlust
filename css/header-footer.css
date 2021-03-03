@@ -197,7 +197,7 @@ body{
 	justify-content: center;
 	align-items: center;
 	position: absolute;
-	left: 0px;
+	left: 10px;
 	cursor: pointer;
 }
 .resHeader .headerBtn{
